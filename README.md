@@ -1,4 +1,4 @@
-Hive Lotto Cause Template
+My Club Draw Club Template
 =========
 
 BaseKit V8 Template
