@@ -1,7 +1,7 @@
 {
-    "name":"Hive Default",
-    "thumbnail":"hive.jpg",
-    "screenshot":"hive-screenshot.jpg",
+    "name":"MCD Default",
+    "thumbnail":"mcd.jpg",
+    "screenshot":"mcd-screenshot.jpg",
     "pageTypes":[
         "home"
     ],
