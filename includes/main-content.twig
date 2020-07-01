@@ -1,0 +1,70 @@
+<div class="container">
+
+    <!-- Container -->
+    
+    <!--Default content-->
+    	<!-- Page Content -->
+    	<section class="template-content">
+    
+            <div class="bk-responsivecolumns  responsivecolumns  widget__responsivecolumns  js-responsivecolumns footertext">
+                <div class="bk-zone column columns-two-left">
+                    {{widget('content', 'aboutcopy', {
+                      content: '<h2><b>ABOUT "ORGANISATIONS NAME HERE"</b></h2><p>Your organisation is the charity providing something for the people of something.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porttitor nec orci eu luctus. Vestibulum tempus purus in dui placerat bibendum.</p><p>Proin tempor mauris congue, vestibulum augue a, tincidunt metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.</p>'
+                    })|raw}}
+                    
+                </div>
+                
+                <div class="bk-zone column columns-two-right">
+                    {{widget('image', 'causeimage', { 'src': asset('/images/clubrep.jpg'), })|raw}}    
+                </div>           
+            </div>    
+    	</section>
+ </div> 
+ 
+ <div class="fullbg" id="prize">
+    	<section class="container template-content">
+    
+            <div class="bk-responsivecolumns  responsivecolumns  widget__responsivecolumns  js-responsivecolumns footertext">
+                <div class="bk-zone column columns-two-left">
+                    {{widget('image', 'prizeimage', { 'src': asset('/images/ladywinner.jpg'), })|raw}}                    
+                </div>
+                
+                <div class="bk-zone column columns-two-right">
+                    {{widget('content', 'prizesection', {
+                      content: '<h2><b>ABOUT YOUR TICKET AND THE PRIZES</b></h2>
+                    <p class="p1"><span class="wysiwyg-font-size-small">When you buy a ticket, we&#39;ll send you an email with your unique ticket number. If you match between 3 and 6 digits in our Saturday draw , you&#39;ll win a prize!&nbsp;</span></p>
+                    <p class="p1"><span class="wysiwyg-font-size-small"><b><span class="wysiwyg-font-size-small">Match 6 digits</span></b><span class="wysiwyg-font-size-small">&nbsp;and win £25,000</span>
+                        <br><b><span class="wysiwyg-font-size-small">Match 5 digits</span></b><span class="wysiwyg-font-size-small">&nbsp;and win £1,000</span>
+                        <br><b><span class="wysiwyg-font-size-small">Match 4 digits</span></b><span class="wysiwyg-font-size-small">&nbsp;and win £100</span>
+                        <br><b><span class="wysiwyg-font-size-small">Match 3 digits</span></b><span class="wysiwyg-font-size-small">&nbsp;and win £10</span>
+                        <br>
+                        </span>
+                    </p>
+                    <p class="p1"><b><span class="wysiwyg-font-size-small">PLUS</span></b><span class="wysiwyg-font-size-small">, regular players</span><span class="wysiwyg-font-size-small">&nbsp;will be entered into a&nbsp;</span><b><span class="wysiwyg-font-size-small">FREE</span></b><span class="wysiwyg-font-size-small"> monthly draw for a </span><b><span class="wysiwyg-font-size-small">second chance</span></b><span class="wysiwyg-font-size-small"> to win £25,000, and if you win then our club will win £25,000 too! In addition, you will also be entered into another monthly bonus draw to win a&nbsp;&nbsp;</span><b><span class="wysiwyg-font-size-small">UK short break for two!</span></b></p>
+                    <p class="p1"><a href="https://hivelotto.co.uk/results" target="_blank"><b><span class="wysiwyg-font-size-small"><span style="color: #ffcc0a;">See the latest lottery results</span></span></b></a></p>'
+                    })|raw}}
+                    <a href="#play"><button class="button  button--primary  feature__button  js-feature-btn">PLAY NOW!</button></a>
+                </div>             
+            </div>    
+    	</section>
+    <!-- Page Content -->
+</div>
+<div class="container">
+    <section class="template-content">
+        <a class="anchor" id="play"></a>
+
+        <!-- Main Widet Zone -->
+        <h3><center>You can become a regular Hive Lotto player, so you never miss a chance to win - or just play once. Simply choose how many weekly entries (tickets) you want, then choose your payment frequency below.</center></h3>
+        {{zone()|raw}}
+    </section>
+</div>   
+
+ <!-- End Page Content -->
+
+ <!-- Top part of footer with links to legal policies -->
+ {% include "includes/top-footer.twig" %}
+ <!-- End top part of footer with links to legal policies -->
+    
+ <!-- Footer for socila media profiles -->   
+{% include "includes/footer.twig" %}
+ <!-- End footer for socila media profiles -->  
