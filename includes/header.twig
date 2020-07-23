@@ -1,6 +1,11 @@
 <!-- Header -->
 <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
 <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <script>
 window.addEventListener("load", function(){
 window.cookieconsent.initialise({
@@ -21,21 +26,4 @@ window.cookieconsent.initialise({
   }
 })});
 </script>
-<header class="template-header">
-    <div class="header-wrapper bk-responsivecolumns  responsivecolumns  widget__responsivecolumns  js-responsivecolumns">
-        <div class="bk-zone column columns-four-first">
-            {{widget('logo', 'logo', {"defaultlogo": asset('images/logo.png')})|raw}}
-        </div>
-        <div class="bk-zone column columns-four-second"></div>
-        <div class="bk-zone column columns-four-third"></div>
-                <div class="bk-zone column columns-four-fourth">
-                {{widget('content', 'navigationcontent', {
-                  content: '<span style="padding-right: 25px;"><a href="/#about">About Us</a></span>
-                  <span style="padding-right: 25px;"><a href="/#prizes">Prizes</a></span>
-                  <span style="padding-right: 25px;"><a href="/#play">Play Now</a></span>'
-                })|raw}}
-        </div>  
 
-    </div>
-</header>
-<!-- End Header -->

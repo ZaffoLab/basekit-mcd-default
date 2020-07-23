@@ -1,17 +1,24 @@
 {
     "name":"MCD Default",
-    "thumbnail":"mcd.jpg",
-    "screenshot":"mcd-screenshot.jpg",
+    "screenshot":"mdc-screenshot.jpg",    
+    "thumbnail":"example.png",
     "pageTypes":[
-        "home"
+        "home",
+        "terms-and-conditions",
+        "privacy-policy",
+        "acceptable-use-policy",
+        "social-responsibility",
+        "game-rules",
+        "member-terms"
     ],
     "templateType":"standard",
     "widgetVersion":2,
     "images":[
-        "images/logoholder.jpg",
-        "images/ladywinner.jpg"
+        "images/mcdlogo.png",
+        "images/hero.jpg"
     ],
-    
+
+
         "colorSwatches":
     {
         "Swatch 1": {
@@ -64,7 +71,7 @@
     "fontSwatch": {
        "title": "Lato",
         "font1": {
-            "font-family": "\"Montserrat\", Geneva, Tahoma, sans-serif",
+            "font-family": "\"Montserrat Alternates\", Geneva, Tahoma, sans-serif",
             "font-size": "28px",
             "font-weight": "400",
             "line-height": "36px",
@@ -72,7 +79,7 @@
             "letter-spacing": "1px"
         },
         "font2": {
-            "font-family": "\"Montserrat\", Geneva, Tahoma, sans-serif",
+            "font-family": "\"Montserrat Alternates\", Geneva, Tahoma, sans-serif",
             "font-size": "24px",
             "font-weight": "400",
             "line-height": "32px",
@@ -80,7 +87,7 @@
             "letter-spacing": "1px"
         },
         "font3": {
-            "font-family": "\"Montserrat\", Geneva, Tahoma, sans-serif",
+            "font-family": "\"Montserrat Alternates\", Geneva, Tahoma, sans-serif",
             "font-size": "20px",
             "font-weight": "400",
             "line-height": "28px",
@@ -88,7 +95,7 @@
             "letter-spacing": "1px"
         },
         "font4": {
-            "font-family": "\"Montserrat\", Geneva, Tahoma, sans-serif",
+            "font-family": "\"Montserrat Alternates\", Geneva, Tahoma, sans-serif",
             "font-size": "16px",
             "font-weight": "400",
             "line-height": "24px",
@@ -96,7 +103,7 @@
             "letter-spacing": "inherit"
         },
         "font5": {
-            "font-family": "\"Open Sans\", Georgia, serif",
+            "font-family": "\"Montserrat Alternates\", Georgia, sans-serif",
             "font-size": "14px",
             "font-weight": "200",
             "line-height": "28px",
@@ -104,7 +111,7 @@
             "letter-spacing": "inherit"
         },
         "font6": {
-            "font-family": "\"Montserrat\", Geneva, Tahoma, sans-serif",
+            "font-family": "\"Montserrat Alternates\", Geneva, Tahoma, sans-serif",
             "font-size": "14px",
             "font-weight": "700",
             "line-height": "26px",
@@ -115,7 +122,7 @@
             "background-color-hover": "@color-swatch1"
          },
         "font7": {
-            "font-family": "\"Montserrat\", Geneva, Tahoma, sans-serif",
+            "font-family": "\"Montserrat Alternates\", Geneva, Tahoma, sans-serif",
             "font-size": "13px",
             "font-weight": "700",
             "line-height": "24px",
@@ -125,7 +132,7 @@
             "background-color-hover": "@color-swatch3"
         },
         "font8": {
-            "font-family": "\"Montserrat\", Geneva, Tahoma, sans-serif",
+            "font-family": "\"Montserrat Alternates\", Geneva, Tahoma, sans-serif",
             "font-size": "64px",
             "font-weight": "700",
             "line-height": "64px",
@@ -133,7 +140,7 @@
             "letter-spacing": "1px"
         },
         "font9": {
-            "font-family": "\"Open Sans\", Georgia, serif",
+            "font-family": "\"Montserrat Alternates\", Georgia, sans-serif",
             "font-size": "14px",
             "font-weight": "200",
             "line-height": "28px",
@@ -141,7 +148,7 @@
             "letter-spacing": "1px"
         },
         "font10": {
-            "font-family": "\"Montserrat\", \"Lobster\", Verdana, sans-serif",
+            "font-family": "\"Montserrat Alternates\", \"Lobster\", Verdana, sans-serif",
             "font-size": "30px",
             "font-weight": "700",
             "line-height": "38px",
@@ -271,3 +278,4 @@
 
     }
 }
+

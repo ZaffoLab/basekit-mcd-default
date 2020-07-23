@@ -6,34 +6,40 @@
 		<div class="container">
 			<div class="row  row--sb  row--aic">
 
-				<div class="header__item  header__item--logo">
-					{{widget('logo', 'site-logo', {
-					  'defaultlogo': asset('images/placeholder-logo--trans.svg')
-					})|raw}}
+<div class="header__item  header__item--logo">
+					<div id="page-zones__template-widgets__logo-site-logo" class="widget  widget--template-widget" data-widget-type="logo" data-uniqueid="page-zones__template-widgets__logo-site-logo">
+
+                    
+        
+<div class="bk-logo  logo  widget__logo" itemscope="" itemtype="https://schema.org/Organization">
+
+    <a href="/home" class="logo-link  logo__logo-link" itemprop="url">
+
+                <img class="logo-image  logo__logo-image" alt="logo" title="logo" src="//d1se4t4tzjp7kt.cloudfront.net/ea2c1ef/templates/8cf8fb6202085fb25e2b70eb39b70d84/images/mcdlogo.png" itemprop="logo">
+
+    </a>
+
+</div>
+
+</div>
+
 				</div>
 
 				<div class="header__item  header__item--navigation">
 					<nav class="site-nav">
+						<ul class="site-nav__list">
 							<li class="nav-list__item">
-								<a href="/about" class="nav-list__link  {% if page.title == "ABOUT US" %}  nav-list__link--selected{% endif %}">About us</a>
-							</li>
-							
-							<li class="nav-list__item">
-								<a href="/Prizes" class="nav-list__link  {% if page.title == "ABOUT US" %}  nav-list__link--selected{% endif %}">Prizes & winners</a>
-							</li>
-
-							<li class="nav-list__item">
-								<a href="/faq-club" class="nav-list__link  {% if page.title == "FAQ CLUB" %}  nav-list__link--selected{% endif %}">MCD and how it works</a>
+								<a href="/about" target="_blank" class="nav-list__link  {% if page.title == "ABOUT US" %}  nav-list__link--selected{% endif %}">More about My Club Draw</a>
 							</li>
 							<li class="nav-list__item">
-								<a href="/7-main-benefits" class="nav-list__link  {% if page.title == "FAQ PLAYER" %}  nav-list__link--selected{% endif %}">Seven reasons to join MCD</a>
-							</li>							
+								<a href="/faq-player" target="_blank" class="nav-list__link  {% if page.title == "FAQ PLAYER" %}  nav-list__link--selected{% endif %}">FAQ Player</a>
+							</li>
+							<li class="nav-list__item">
+								<a href="/results" target="_blank" class="nav-list__link  {% if page.title == "RESULTS" %}  nav-list__link--selected{% endif %}">Results</a>
+							</li>
 							<li class="nav-list__item">
 								<a href="/news" target="_blank" class="nav-list__link  {% if page.title == "NEWS" %}  nav-list__link--selected{% endif %}">News</a>
 							</li>							
-							<li class="nav-list__item  nav-list__item--button">
-								<a href="https://share.hsforms.com/19TDarhbNRpWVGIfmpefCUg1a5in" target="_blank" class="button  button--outline  button--outline-white gop">Sign Up Now</a>
-							</li>
 						</ul>
 					</nav>
 				</div>
@@ -44,14 +50,14 @@
 
 
 	<!-- Feature -->
-	{{widget('feature', 'header-hero1-feature', {
+	{{widget('feature', 'header-hero1-feature2', {
 		'header': 'Win up to £25,000 in our weekly lottery!',
 		'strapline': 'Grassroots sports clubs across the UK have teamed up with i-Giv. to offer an innovative online lottery that helps them raise much needed funds. There are incredible weekly cash prizes up for grabs and at least 50% of proceeds from every ticket sold goes directly to clubs, so play now!',
 		'defaultBgImg': asset('images/pat99.jpg'),
 		'showBtn': true,
 		'buttonText': 'CHOOSE A SPORTS CLUB TO BENEFIT',
 		'action': 'internal',
-		'url': '/list'
+		'url': '#play'
 	})|raw}}
 
 

@@ -14,26 +14,19 @@
 
 				<div class="header__item  header__item--navigation">
 					<nav class="site-nav">
+						<ul class="site-nav__list">
 							<li class="nav-list__item">
-								<a href="/about" class="nav-list__link  {% if page.title == "ABOUT US" %}  nav-list__link--selected{% endif %}">About us</a>
-							</li>
-							
-							<li class="nav-list__item">
-								<a href="/Prizes" class="nav-list__link  {% if page.title == "ABOUT US" %}  nav-list__link--selected{% endif %}">Prizes & winners</a>
-							</li>
-
-							<li class="nav-list__item">
-								<a href="/faq-club" class="nav-list__link  {% if page.title == "FAQ CLUB" %}  nav-list__link--selected{% endif %}">MCD and how it works</a>
+								<a href="https://myclubdraw.zaffo.com/example-club-page#about" class="nav-list__link  {% if page.title == "ABOUT MCD" %}  nav-list__link--selected{% endif %}">About MCD</a>
 							</li>
 							<li class="nav-list__item">
-								<a href="/7-main-benefits" class="nav-list__link  {% if page.title == "FAQ PLAYER" %}  nav-list__link--selected{% endif %}">Seven reasons to join MCD</a>
-							</li>							
+								<a href="/results" class="nav-list__link  {% if page.title == "RESULTS" %}  nav-list__link--selected{% endif %}">This month’s prizes – Last month’s winners</a>
+							</li>
 							<li class="nav-list__item">
 								<a href="/news" target="_blank" class="nav-list__link  {% if page.title == "NEWS" %}  nav-list__link--selected{% endif %}">News</a>
-							</li>							
-							<li class="nav-list__item  nav-list__item--button">
-								<a href="https://share.hsforms.com/19TDarhbNRpWVGIfmpefCUg1a5in" target="_blank" class="button  button--outline  button--outline-white gop">Sign Up Now</a>
 							</li>
+							<li class="nav-list__item">
+								<a href="https://secure.zaffo.com/admin/login" target="_blank" class="nav-list__link  {% if page.title == "CLUB ADMIN" %}  nav-list__link--selected{% endif %}">Club Admin</a>
+							</li>						
 						</ul>
 					</nav>
 				</div>
@@ -44,14 +37,14 @@
 
 
 	<!-- Feature -->
-	{{widget('feature', 'header-hero1-feature', {
+	{{widget('feature', 'header-hero1-feature2', {
 		'header': 'Win up to £25,000 in our weekly lottery!',
 		'strapline': 'Grassroots sports clubs across the UK have teamed up with i-Giv. to offer an innovative online lottery that helps them raise much needed funds. There are incredible weekly cash prizes up for grabs and at least 50% of proceeds from every ticket sold goes directly to clubs, so play now!',
 		'defaultBgImg': asset('images/pat99.jpg'),
 		'showBtn': true,
 		'buttonText': 'CHOOSE A SPORTS CLUB TO BENEFIT',
 		'action': 'internal',
-		'url': '/list'
+		'url': '#play'
 	})|raw}}
 
 

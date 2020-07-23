@@ -1,6 +1,6 @@
 {
-  "name": "zaffo-play-app",
-  "short_name": "zaffo-play-app",
+  "name": "zaffo-play",
+  "short_name": "zaffo-play",
   "start_url": "/",
   "display": "standalone"
 }
